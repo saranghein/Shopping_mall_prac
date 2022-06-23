@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD웹캠 화상카메라</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML  >도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML class="selected">가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="appliance9.jpg">
+                <span class="explain">
+                    <a class='backward'href="appliance.HTML">이전</a>
+
+                    <p>HD웹캠 화상카메라</p>
+                    <p class="prize">29,900원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>크기</th><td>88 x 37 x 33mm</td></tr>
+                            <tr><th>최대 해상도</th><td>720P HD(1280 x 720)</td></tr>
+                            <tr><th>프레임</th><td>30FPS</td></tr>
+                            <tr><th>무게</th><td>200g</td></tr>
+                            <tr><th>제조국</th><td>중국</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+
+            <dl>
+                <dt>마이크 탑재</dt>
+                <dd>
+                    별도 장비 없이 화상 통신을 시작할 수 있음
+                </dd><hr><br>
+                <dt>다목적 지지대</dt>
+                <dd>
+                    컴퓨터, 노트북, 삼각대에 쉽게 고정할 수 있는<br>
+                    클립형태의 지지대가 장착돼 있음
+                </dd><hr><br>
+            </dl>
+            
+        </section>
+    </div>
+
+</body>
+</html>

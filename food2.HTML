@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유기농 사과</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML>도서</a></li>
+                <li><a href=food.HTML class="selected">식품</a></li>
+                <li><a href=appliance.HTML>가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="food2.jpg">
+                <span class="explain">
+                    <a class='backward'href="food.HTML">이전</a>
+
+                    <p>유기농 사과</p>
+                    <p class="prize">8,990원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>판매단위</th><td>1봉</td></tr>
+                            <tr><th>중량/용량</th><td>4~5입</td></tr>
+                            <tr><th>원산지</th><td>국산</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+
+            <dl>
+                <dt>변비 개선</dt>
+                <dd>섬유소가 풍부해 장운동을 규칙적으로 만들어 준다.</dd><hr><br>
+                <dt>콜레스테롤 감소</dt>
+                <dd>콜레스테롤이 축적되는 것을 방지 해 심장 질환의 위험성을 낮춰준다.</dd><hr><br>
+                <dt>항암 효과</dt>
+                <dd>산화를 억제하고 항암 작용을 하여 발암물질로부터 보호해 준다.</dd><hr><br>
+                <dt>노화 방지</dt>
+                <dd>혈장 속 과산화지질의 증가를 억제해 세표의 노화와 조직 손상을 방지해 준다. </dd><hr><br>
+
+                
+            </dl>
+        </section>
+    </div>
+
+</body>
+</html>

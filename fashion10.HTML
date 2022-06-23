@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>니트</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML class="selected">패션의류</a></li>
+                <li><a href=book.HTML>도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML>가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="fashion10.jpg">
+                <span class="explain">
+                    <a class='backward'href="fashion.HTML">이전</a>
+
+                    <p>니트</p>
+                    <p class="prize">50,200원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>품목</th><td>상의/니트</td></tr>
+                            <tr><th>성별</th><td>남, 여</td></tr>
+                            <tr><th>시즌</th><td>ALL ALL</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+
+            <div class="fashion-info">
+                니트<br><br>
+                
+                두께감과 높은 강도로 부드러움이 강화됨<br>
+                촘촘한 조직으로 부드러운 터치감<br>
+                
+                
+            </div>
+            
+            <table class="size">
+                <caption>사이즈</caption>
+                <thead>
+                    <tr><th>cm</th><th>총장</th><th>어깨너비</th><th>가슴단면</th><th>소매길이</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th>S</th><td>67</td><td>44</td><td>52.5</td><td>58</td></tr>
+                    <tr><th>M</th><td>69</td><td>48</td><td>54.5</td><td>59</td></tr>
+                    <tr><th>L</th><td>71</td><td>50</td><td>58.5</td><td>60</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>

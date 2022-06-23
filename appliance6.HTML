@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헤어 드라이어</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML  >도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML class="selected">가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="appliance6.jpg">
+                <span class="explain">
+                    <a class='backward'href="appliance.HTML">이전</a>
+
+                    <p>헤어 드라이어</p>
+                    <p class="prize">34,000원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>크기</th><td>280 x 275 x 90mm</td></tr>
+                            <tr><th>무게</th><td>510g</td></tr>
+                            <tr><th>코드길이</th><td>1.8m</td></tr>
+                            <tr><th>제조국</th><td>중국</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+
+            <dl>
+                <dt>쿨버튼</dt>
+                <dd>
+                    온풍과 냉풍을 쉽게 전환하여 사용
+                </dd><hr><br>
+                <dt>6단 럴커 스위치</dt>
+                <dd>
+                    더욱 세밀한 바람과 온도 조절이 가능
+                </dd><hr><br>
+                <dt>분리형 흡입망</dt>
+                <dd>
+                    먼지가 쉽게 쌓이는 흡입망 청소 가능
+                </dd><hr><br>
+                <dt>이중 안전 장치</dt>
+                <dd>
+                    이중 안전 장치로 더욱 안전한 사용 가능
+                </dd><hr><br>
+
+            </dl>
+            
+        </section>
+    </div>
+
+</body>
+</html>

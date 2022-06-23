@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>와이드 데님 팬츠</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML class="selected">패션의류</a></li>
+                <li><a href=book.HTML>도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML>가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="fashion9.jpg">
+                <span class="explain">
+                    <a class='backward'href="fashion.HTML">이전</a>
+
+                    <p>와이드 데님 팬츠</p>
+                    <p class="prize">39,000원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>품목</th><td>바지</td></tr>
+                            <tr><th>성별</th><td>남</td></tr>
+                            <tr><th>시즌</th><td>2021 ALL</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+
+            <div class="fashion-info">
+                와이드 데님 팬츠<br><br>
+                
+                와이드한 핏감과 탄탄한 데님소재의 적당한 두께감으로 사계절 내내 착용가능<br>
+                빈티지한 느낌이 있어 어느곳에나 잘 어울리며 어디든 스타일링 하기 좋은 아이템<br>
+                
+                
+            </div>
+            
+            <table class="size">
+                <caption>사이즈</caption>
+                <thead>
+                    <tr><th>cm</th><th>총장</th><th>허리단면</th><th>허벅지단면</th><th>밑위</th><th>밑단단면</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th>S</th><td>104</td><td>37</td><td>30</td><td>27</td><td>21.5</td></tr>
+                    <tr><th>M</th><td>105</td><td>39</td><td>31.5</td><td>28</td><td>22</td></tr>
+                    <tr><th>L</th><td>106</td><td>41</td><td>33</td><td>29</td><td>22.5</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애쓰지 않아도</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML  class="selected">도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML>가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="book1.jpg">
+                <span class="explain">
+                    <a class='backward'href="book.HTML">이전</a>
+
+                    <p>애쓰지 않아도</p>
+                    <p class="prize">13,000원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>작가</th><td>최은영</td></tr>
+                            <tr><th>장르</th><td>소설</td></tr>
+                            <tr><th>출판사</th><td>마음산책</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+            <table class="size">
+                <tbody>
+                    <tr><th>ISBM</th><td>9788960907348(8960907340)</td></tr>
+                    <tr><th>쪽수</th><td>232쪽</td></tr>
+                </tbody>
+            </table>
+
+            <dl>
+                <dt>책소개</dt>
+                <dd style="text-align: left;">앞서 발표했던 작품들에서 인물 간의 우정과 애정을 세심하게 살폈던 최은영은, 이번 짧은 소설집에서도 그 시선을 여실히 드러낸다. <br>
+                    우리가 여리고 민감했던 시절, 몰두했던 관계를 면밀히 들여다보고 상처받아 뾰족해졌던 마음의 모서리를 쓰다듬는다. <br>
+                    상처를 응시하는 시선은 올곧고 바르지만, 이를 감싸는 문장은 사려 깊고 따뜻하다. 어긋난 관계로 인해 상처받았던 사람이라면, 최은영의 소설에서 정확한 위로를 받게 된다.
+
+                </dd><hr><br>
+                <dt>작가의 말</dt>
+                <dd style="text-align: left;">최소한의 권리를 요구하는 사람들에게 너희는 이미 충분히 가졌으며 더는 요구하지 말라고 말하는 이들을 본다. <br>
+                    불편하게 하지 말고 민폐 끼치지 말고 예쁘게 자기 의견을 피력하라는 이들을 본다. 누군가의 불편함이 조롱거리가 되는 모습을 본다. <br>
+                    더 노골적으로, 더 공적인 방식으로 약한 이들을 궁지로 몰아가는 사람들의 모습을 본다. 인간성의 기준점이 점점 더 내려가는 기분을 느낀다.<br>
+                    이제 나는 더 이상 시간이 지나면 자연스레 많은 것들이 나아질 것이라고 믿지 않는다. 힘을 더해야 한다.<br>
+                    _「작가의 말」 중에서</dd><hr><br>
+            </dl>
+            
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내가 틀릴 수도 있습니다</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML  class="selected">도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML>가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="book8.jpg">
+                <span class="explain">
+                    <a class='backward'href="book.HTML">이전</a>
+
+                    <p>내가 틀릴 수도 있습니다</p>
+                    <p class="prize">16,000원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>작가</th><td>비욘 나티코 린데블라드</td></tr>
+                            <tr><th>장르</th><td>인문</td></tr>
+                            <tr><th>출판사</th><td>다산초당</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+            <table class="size">
+                <tbody>
+                    <tr><th>ISBM</th><td>9791130689890(1130689891</td></tr>
+                    <tr><th>쪽수</th><td>312쪽</td></tr>
+                </tbody>
+            </table>
+
+            <dl>
+                <dt>책소개</dt>
+                <dd style="text-align: left;">이 책은 모두가 인생의 진리를 추구하며 살아가야 한다고 말하지 않는다.17년을 숲속에서 수행해야 지혜를 얻을 수 있다는 이야기도 아니다.<br>
+                    하지만 매순간 오늘의 사회에서 주어지는 모든 자극을 그대로 받아들인다면 우리는 온갖 박탈감과 초조함, 허무함에 시달릴 수밖에 없다. <br>
+                    가만히 있어도 불편하게 살고 있다면, 습관적으로 불행과 불안에 몰두하며 스스로를 괴롭히고 있다면, 그 패턴에서 벗어나 좀 더 평온하고 자유로운 삶을 살아갈 수 있도록 돕고자 한다.<br><br>
+
+                    인생에서는 언제고 폭풍우를 맞이하게 된다. 몇 번이고 되풀이해서 온다. 이때 자기 생각을 모두 믿어버린다면 바닥이 없는 심연으로 빠져든다.<br>
+                     좀 더 평온한 시기에 생각을 내려놓는 법을 배웠다면 두려움과 아픔이 마침내 당신을 찾아왔을 때 가느다란, 그러나 굳건한 구명줄이 되어줄 것이다.
+                </dd><hr><br>
+            </dl>
+            
+        </section>
+    </div>
+
+</body>
+</html>

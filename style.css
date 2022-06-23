@@ -1,0 +1,250 @@
+*{
+    text-align: center;
+    font-family: Arial,"Times New Roman", sans-serif;
+}
+#full-size{
+    width: 1474px;
+    height: auto;
+}
+header{
+    font-size: 2.5em;
+    padding: 2px;
+    
+}
+header>a{
+    position: relative;
+    bottom: 10px;
+}
+#title{
+    color:darkmagenta;
+}
+@keyframes textAnimation{
+    from{color: white;}
+    to{color: violet;}
+}
+li a{
+    text-decoration: none;
+    color: white;
+    animation-name: textAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+li{
+    width: 123px;
+    display: inline-block;
+    margin: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.selected{
+    font-weight: bold;
+    color: rgb(212, 5, 212);
+}
+.goods{
+    display: inline;
+    margin: 1px;
+
+}
+.goods a{
+    display: inline-block;
+    margin: 30px;
+    background: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+}
+.goods a:hover{
+    transform: scale(1.2);
+}
+.goods img{
+    width: 200px;
+    height: 200px;
+
+}
+select{
+    padding-bottom: 1px;
+    border: 0;
+}
+.text_input{
+    width: 300px;
+    padding: 8px;
+    border: 0px;
+    outline: none;
+}
+select, .text_input{
+    float: left;
+}
+.search{
+    background-color: rgb(245, 169, 245);
+    float: right;
+    width: 40px;
+    height: 32px;
+    border: 0px;
+}
+.search_label{
+    border: 2px;
+    border-color: black;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin-top: 0;
+    padding-inline-start: 0px;
+   
+}
+nav{
+    border-radius: 5px;
+    background: purple;
+    margin-left: 10%;
+    margin-right: 10%
+    
+}
+
+select{
+    outline: none;
+    height: 32px;
+}
+fieldset{
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: 1;
+    display: inline;
+    border-color: violet;
+}
+.shopping-icon{
+    border: 0px;
+    outline: none;
+   background-color: white;
+}
+.shopping-icon img{
+    width: 25px;
+    height: 25px;
+    
+}
+.shopping-cart{
+    display: inline-block;
+    font-size: 1px;
+}
+.selected-goods{
+    float: left;
+    width: 400px;
+    height: 400px;
+    
+}
+.explain>p{
+    margin-bottom: 1px;
+}
+.explain{
+    
+    float: left;
+    margin:30px;
+    padding-left: 30px;
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    border-left:solid 1px;
+    border-color: silver;
+    
+    
+}
+
+section{
+    margin: 1px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
+hr{
+    width: 60%;
+}
+.explain p{
+    text-align: left;
+}
+.prize{
+    margin-top: 1px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+}
+
+td,tfoot th{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    font-size: 10px;
+}
+th{
+    font-weight: bold;
+}
+dt{
+    font-size: 30px;
+    font-style: italic;
+}
+dl{
+    display: inline-block;
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border: solid darkmagenta 1px;
+}
+.selected-menu{
+    background-color: darkmagenta;
+    color: white;
+}
+.shopping-cart-button{
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    background-color: darkmagenta;
+    color: white;
+}
+.backward{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 33px;
+   
+    margin: 3px;
+    padding:5px;
+    font-size: 15px;
+    background-color: darkmagenta;
+    color: white;
+}
+.fashion-info{
+    float: left;
+    margin: 50px;
+    text-align: left;
+    color: gray;
+}
+.size th{
+    background-color: darkmagenta;
+    color: white;
+}
+.size thead{
+    height: 40px;
+}
+.size td{
+    font-size: 20px;
+}
+.size{
+    margin-bottom: 50px;
+}

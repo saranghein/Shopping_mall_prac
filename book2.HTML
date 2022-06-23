@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나에게 고맙다</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML  class="selected">도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML>가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="book2.jpg">
+                <span class="explain">
+                    <a class='backward'href="book.HTML">이전</a>
+
+                    <p>나에게 고맙다</p>
+                    <p class="prize">14,400원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>작가</th><td>전승환</td></tr>
+                            <tr><th>장르</th><td>에세이</td></tr>
+                            <tr><th>출판사</th><td>북로망스</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+            <table class="size">
+                <tbody>
+                    <tr><th>ISBM</th><td>9791191891072(1191891070)</td></tr>
+                    <tr><th>쪽수</th><td>288쪽</td></tr>
+                </tbody>
+            </table>
+
+            <dl>
+                <dt>책소개</dt>
+                <dd style="text-align: left;">아름다운 순간을 포착하는 사진가 빛담(@put_in_light)과의 콜라보레이션을 통해 책의 분위기를 완전히 바꾸어 놓았다.<br>
+                     오래된 글의 일부는 과감히 덜어내고, 요즈음을 살아가는 독자들에게 전하고 싶은 따뜻한 마음을 담은 40여 편의 글을 새로 써 책에 담아냈다.<br>
+                    지금까지 한 번도 스스로에게 ‘고맙다’는 말을 전해보지 못했다면, 그동안 고생한 나에게 한 마디 소중한 위로를 건네고 싶다면, <br>
+                    전승환 작가가 세심하게 공들여 매만진 《나에게 고맙다》 전면 개정판을 만나보자. 북테라피스트 전승환의 따스한 문장들이 그 어떤 위로보다 깊이 마음을 어루만져줄 것이다.
+                </dd><hr><br>
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB메모리</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="full-size">
+        <form>
+            <header><a id="title" href="shopping1.HTML">Shopping </a>
+                <fieldset>
+                    <label>
+                        <select name="category">
+                            <option value="0" selected>전체</option>
+                            <option value="1">패션의류</option>
+                            <option value="2">도서</option>
+                            <option value="3">식품</option>
+                            <option value="4">가전</option>
+                            <input class="text_input" type="text" placeholder="검색어 입력">
+                            <button class="search">검색</button>
+                    </label>
+                </fieldset>
+                <span class="shopping-cart">
+                    <a class="shopping-icon" href="shopping1.HTML"><img src="shoppingchart.png"><br>장바구니</a>
+                </span>
+            </header>
+        </form> 
+        <nav>
+            <ul>
+                <li><a href=fashion.HTML>패션의류</a></li>
+                <li><a href=book.HTML  >도서</a></li>
+                <li><a href=food.HTML >식품</a></li>
+                <li><a href=appliance.HTML class="selected">가전</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <img class='selected-goods'src="appliance3.jpg">
+                <span class="explain">
+                    <a class='backward'href="appliance.HTML">이전</a>
+
+                    <p>USB메모리</p>
+                    <p class="prize">7,900원</p>
+                    <table>
+                        <tfoot>
+                            <tr><th>용량</th><td>128GB</td></tr>
+                            <tr><th>무게</th><td>12g</td></tr>
+                            <tr><th>제조국</th><td>중국</td></tr>
+                            <tr><th>구매수량</th><th><input type="number"min="1" max="10"step="1" value="1"></th></tr>
+                        </tfoot>
+                    </table>
+                    <button class="shopping-cart-button">장바구니 담기</button>
+                </span>
+            </form> 
+        </section>
+        <section>
+            <table class="menu">
+                <thead>
+                    <tr><th class="selected-menu">설명</th><th>상세정보</th><th>후기</th><th>문의</th></tr>
+                </thead>
+            </table>
+
+            <dl>
+                <dt>뛰어난 호환성</dt>
+                <dd>
+                    Window뿐만 아니라 MAC에서도 사용가능
+                </dd><hr><br>
+                <dt>방수 생활기능</dt>
+                <dd>
+                    물과 먼지에도 강력하게, 단단한 내구성으로 내부를 밀폐식으로 설계
+                </dd><hr><br>
+
+            </dl>
+            
+        </section>
+    </div>
+
+</body>
+</html>
